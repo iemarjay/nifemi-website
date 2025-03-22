@@ -6,19 +6,19 @@ import ContactImage from "/public/images/contact.png";
 const socailLinks = [
   {
     icon: "/icons/social1.svg",
-    href: "/",
+    href: "https://www.whatsapp.com/08144778546",
   },
   {
     icon: "/icons/social2.svg",
-    href: "/",
+    href: "https://www.instagram.com/socialswithnife?igsh=eW1iNmJibzJqNmxs&utm_source=qr",
   },
   {
     icon: "/icons/social3.svg",
-    href: "/",
+    href: "https://x.com/ni_fe_mii?s=21&t=xP9dAmNCqjYAfBm4TzFjQQ",
   },
   {
     icon: "/icons/social4.svg",
-    href: "/",
+    href: "http://linkedin.com/in/kehinde-odeyemi-5a8a82191",
   },
   {
     icon: "/icons/social5.svg",
