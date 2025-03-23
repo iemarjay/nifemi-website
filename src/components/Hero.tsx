@@ -2,7 +2,7 @@ import Image from "next/image";
 import HeroImage from "/public/images/hero.png";
 import HeroLineIcon from "/public/icons/heroLine.svg";
 import GmailIcon from "/public/icons/gmail.svg";
-import Link from "next/link"
+import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
@@ -42,15 +42,15 @@ const Hero: React.FC = () => {
               />
             </div>
             <div className="w-full flex items-center justify-center pt-8">
-             <Link href="mailto:odeyemiseyifunmi30@gmail.com">
-          <button
-                type="button"
-                className="flex items-center justify-center gap-x-2 ourline-none bg-dark rounded-lg px-4 py-2 min-h-12"
-              >
-                <Image src={GmailIcon} alt="gmail icon" />
-                <span className="text-base font-semibold">Hire me</span>
-              </button>
-               </Link>
+              <Link href="mailto:odeyemiseyifunmi30@gmail.com" className="cursor-pointer">
+                <button
+                  type="button"
+                  className="flex items-center justify-center gap-x-2 ourline-none bg-dark rounded-lg px-4 py-2 min-h-12"
+                >
+                  <Image src={GmailIcon} alt="gmail icon" />
+                  <span className="text-base font-semibold">Hire me</span>
+                </button>
+              </Link>
             </div>
           </div>
         </div>
