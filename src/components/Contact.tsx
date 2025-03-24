@@ -6,23 +6,23 @@ import ContactImage from "/public/images/contact.png";
 const socailLinks = [
   {
     icon: "/icons/social1.svg",
-    href: "/",
+    href: "https://www.whatsapp.com/08144778546",
   },
   {
     icon: "/icons/social2.svg",
-    href: "/",
+    href: "https://www.instagram.com/socialswithnife?igsh=eW1iNmJibzJqNmxs&utm_source=qr",
   },
   {
     icon: "/icons/social3.svg",
-    href: "/",
+    href: "https://x.com/ni_fe_mii?s=21&t=xP9dAmNCqjYAfBm4TzFjQQ",
   },
   {
     icon: "/icons/social4.svg",
-    href: "/",
+    href: "http://linkedin.com/in/kehinde-odeyemi-5a8a82191",
   },
   {
     icon: "/icons/social5.svg",
-    href: "/",
+    href: "mailto:odeyemiseyifunmi30@gmail.com",
   },
 ];
 
@@ -52,6 +52,7 @@ const Contact: React.FC = () => {
               potential of your brand’s online presence.
             </p>
           </div>
+          <Link href="mailto:odeyemiseyifunmi30@gmail.com">
           <button
             type="button"
             className="flex items-center justify-center gap-x-2 ourline-none bg-primary rounded-lg px-4 py-2 min-h-12"
@@ -59,6 +60,7 @@ const Contact: React.FC = () => {
             <Image src={GmailIcon} alt="gmail icon" />
             <span className="text-base font-semibold">Hire me</span>
           </button>
+          </Link>
           <nav className="flex items-center justify-center md:justify-start gap-6">
             {socailLinks.map((social, index) => (
               <Link key={index} href={social.href}>
