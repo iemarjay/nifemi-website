@@ -52,14 +52,17 @@ const Contact: React.FC = () => {
               potential of your brand’s online presence.
             </p>
           </div>
-          <Link href="mailto:odeyemiseyifunmi30@gmail.com">
-          <button
-            type="button"
-            className="flex items-center justify-center gap-x-2 ourline-none bg-primary rounded-lg px-4 py-2 min-h-12"
+          <Link
+            href="mailto:odeyemiseyifunmi30@gmail.com"
+            className="cursor-pointer"
           >
-            <Image src={GmailIcon} alt="gmail icon" />
-            <span className="text-base font-semibold">Hire me</span>
-          </button>
+            <button
+              type="button"
+              className="flex items-center justify-center gap-x-2 ourline-none bg-primary rounded-lg px-4 py-2 min-h-12"
+            >
+              <Image src={GmailIcon} alt="gmail icon" />
+              <span className="text-base font-semibold">Hire me</span>
+            </button>
           </Link>
           <nav className="flex items-center justify-center md:justify-start gap-6">
             {socailLinks.map((social, index) => (
