@@ -4,7 +4,7 @@ import { navbarRoutes } from "./router";
 
 const Navbar: React.FC = () => {
   return (
-    <header className="py-6">
+    <header className="py-6 sticky top-0 z-40 bg-primary">
       <div className="contain flex flex-row items-end justify-end">
         <nav className="hidden lg:flex items-center justify-end gap-5">
           {navbarRoutes.map((route) => (
